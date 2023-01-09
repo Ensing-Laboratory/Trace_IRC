@@ -29,9 +29,9 @@ having a look at Ref. [1] for a detailed description and a typical application.
 
 The program tries to find a path in 3 steps:
 
- 1 optimize the two local minima
- 1 locate a coarse path
- 1 refine the path
+ 1. optimize the two local minima
+ 1. locate a coarse path
+ 1. refine the path
 
 First check if the stable states are minimized as expected (use `TNOTRACE`
 to just do this, after that put the found minima in the input file as `MINIMA` to not waste time on optimizing the minima anymore).
