@@ -1,0 +1,2 @@
+p 'trace_coursegrid.out' u 1:2 w p
+rep 'umbrella.pot' u 2:3 w l lw 2
